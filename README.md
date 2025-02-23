@@ -61,4 +61,8 @@ This works, but...
 If you can get it to work, great. If not, there's always [IPX wrapper](http://www.solemnwarning.net/ipxwrapper/).
 
 ## Where's This Going?
-Nowhere. Not being familiar with Battle.net, I didn't realize you can only play against other human players. (I suppose the Player vs. Player aspect of PvPGN should have clued me in, but I missed it.) So I've got a nice working Docker container that I'll never use, because I want to play cooperative LAN games. Still, it works. So if someone else can benefit, here it is.
+Nowhere.
+
+Not being familiar with Battle.net, I didn't realize you can only play against other human players. (I suppose the Player vs. Player aspect of the PvPGN name should have clued me in, but I missed it.)
+
+So I've got a nice working Docker container that I'll never use, because I want to play cooperative LAN games. Still, it works. So if someone else can benefit, here it is.
