@@ -26,7 +26,7 @@ Configuring Warcraft II was a pain in the tuchus, so here are some notes.
 * Warcraft II must be run in compatibility mode for Windows XP Service Pack 3 to avoid immediate disconnection when joining the server.
 
 ## Notes About Configuring the Server
-The Dockerfile is setup so that PvPGN is installed into the default location of /usr/local. If you need to have access to the configuration, it's in /usr/local/etc/pvpgn/ Data and log files are written to /usr/local/var/pvgn. You can use Docker volumes to map them.
+The Dockerfile is setup so that PvPGN is installed into the default location of /usr/local and tracking is turned off. If you need to have access to the configuration, it's in /usr/local/etc/pvpgn/ Data and log files are written to /usr/local/var/pvgn. You can use Docker volumes to map them.
 
 For example, this compose.yml:
 
