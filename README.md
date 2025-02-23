@@ -1,5 +1,5 @@
 # pvpgn-docker
-Dockerfile and compose.yml to build and run pvpgn in a Docker container
+Dockerfile and compose.yml to build and run pvpgn in a Docker container.
 
 ## What is it?
 [PvPGN](https://en.wikipedia.org/wiki/PvPGN) is a Battle.net clone you can run on your own computer. The repository you're in now exists to help those wishing to "Dockerize" their PvPGN instances. What you'll find here are the _Dockerfile_ to build PvPGN and a _compose.yml_ to save yourself some work.
