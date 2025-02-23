@@ -1,0 +1,15 @@
+services:
+    pvpgn:
+        build:
+            context: .
+        image: davescodemusings/pvpgn
+        container_name: pvpgn
+        hostname: pvpgn
+        restart: unless-stopped
+        ports:
+          - 6112:6112
+#        volumes:
+#          - ./config:/config
+#          - ./data:/data
+#          - ./config:/usr/local/etc/pvpgn
+#          - ./data:/usr/local/var/pvpgn
