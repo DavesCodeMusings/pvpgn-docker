@@ -56,6 +56,7 @@ The trick is [copying the files from the container to the host](https://duckduck
 This works, but...
 * PvPGN hasn't had a release since 2018.
 * Warcraft II was released in the 1990s.
+* I don't know about other Battle.net games, because I only own Warcraft II.
 
 If you can get it to work, great. If not, there's always [IPX wrapper](http://www.solemnwarning.net/ipxwrapper/).
 
