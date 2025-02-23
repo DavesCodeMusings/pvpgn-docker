@@ -30,7 +30,7 @@ The Dockerfile is setup so that PvPGN is installed with a file-based backend (as
 
 * If you need to have access to the configuration, it's in /usr/local/etc/pvpgn/
 * Data and log files are written to /usr/local/var/pvgn/
-* You can use Docker volumes to map them to your own copies to customize.
+* You can use Docker volumes to map one or both directories to your own copies for customizing.
 
 For example, this compose.yml:
 
