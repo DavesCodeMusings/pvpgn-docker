@@ -38,7 +38,7 @@ The Dockerfile is setup so that PvPGN is installed with a file-based backend (as
 * Data and log files are written to /usr/local/var/pvgn/
 * You can use Docker volumes to bind mount one or both directories to a directory on your host for customizing config or persisting server data.
 
-For example, this compose.yml contains the configuration for mounting both:
+For example, this compose.yml contains the configuration for bind mounting both:
 
 ```
 services:
