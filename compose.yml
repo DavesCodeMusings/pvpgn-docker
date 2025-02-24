@@ -9,7 +9,5 @@ services:
         ports:
           - 6112:6112
 #        volumes:
-#          - ./config:/config
-#          - ./data:/data
 #          - ./config:/usr/local/etc/pvpgn
 #          - ./data:/usr/local/var/pvpgn
