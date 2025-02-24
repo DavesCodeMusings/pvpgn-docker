@@ -25,7 +25,7 @@ Configuring Warcraft II was a pain in the tuchus, so here are some notes.
 * Adding your server entry requires editing the Windows registry. [HKEY_CURRENT_USER\Software\Battle.net\Configuration\Battle.net gateways](https://www.reddit.com/r/slashdiablo/comments/u4jtj/how_to_manually_edit_the_battlenet_registry_to/)
 * Warcraft II must be able to write to its installation directory.
 
-The last bullet point is because the Battle.net (PvPGN in this case) needs to write an MPQ (patch) file to the installation directory. Modern Windows versions do not allow writing to Program Files. A few ways to work around this are listed below.
+The last bullet point is because Battle.net (PvPGN in this case) needs to write an MPQ (patch) file to the installation directory. Modern Windows versions do not allow writing to Program Files. A few ways to work around this are listed below.
 
 * Run Warcraft II BNE as administrator.
 * Configure Warcraft II BNE.exe to run in Windows XP SP3 compatibility mode.
