@@ -5,7 +5,7 @@ Dockerfile and compose.yml to build and run pvpgn in a Docker container.
 [PvPGN](https://en.wikipedia.org/wiki/PvPGN) is a Battle.net clone you can run on your own computer. The repository you're in now exists to help those wishing to "Dockerize" their PvPGN instances. What you'll find here are the _Dockerfile_ to build PvPGN and a _compose.yml_ to save yourself some work building and running it.
 
 ## Why?
-Personally, I wanted to host Warcraft II games on my local area network (LAN), but the IPX protocol used by Warcraft II multi-player is no longer supported in modern Windows versions. IPX to TCP/IP wrappers are available, but I found the idea of a centralized server was appealing.
+Personally, I wanted to host Warcraft II games on my local area network (LAN), but the IPX protocol used by Warcraft II multi-player is no longer supported in modern Windows versions. IPX to TCP/IP wrappers are available, but I found the idea of a centralized server appealing.
 
 PvPGN looked like a good solution for a LAN-based private Battle.net server. I wanted to run it in a Docker container. Thus, this repository was born.
 
