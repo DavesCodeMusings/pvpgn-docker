@@ -10,7 +10,7 @@ Personally, I wanted to host Warcraft II games on my local area network (LAN), b
 PvPGN looked like a good solution for a LAN-based private Battle.net server. I wanted to run it in a Docker container. Thus, this repository was born.
 
 ## How Can I Use It?
-You'll need a host running Docker with Docker Compose available. If you've got that, follow the steps below.
+You'll need a host running Docker with Docker Compose available. If you've got that, follow the steps below (shoose one.)
 
 1. Copy the Dockerfile and compose.yml to a suitable subdirectory.
 2. Run `docker compose build` to create the pvpgn container image.
