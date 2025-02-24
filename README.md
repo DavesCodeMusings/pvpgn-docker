@@ -34,7 +34,7 @@ The last bullet point is because Battle.net (PvPGN in this case) needs to write 
 ## Notes About Configuring the Server
 The Dockerfile is setup so that PvPGN is installed with a file-based backend (as opposed to SQL database) and tracking is turned off. This is probably fine for most LAN installations.
 
-* If you need to have access to the configuration, it's in /usr/local/etc/pvpgn/
+* If you need to have access to the configuration files, they're in /usr/local/etc/pvpgn/
 * Data and log files are written to /usr/local/var/pvgn/
 * You can use Docker volumes to bind mount one or both directories to a directory on your host for customizing config or persisting server data.
 
