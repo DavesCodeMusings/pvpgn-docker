@@ -59,12 +59,12 @@ services:
 The trick is [copying the files from the container to the host](https://duckduckgo.com/?q=copy+files+from+docker+container+to+host) before running the container. 
 
 ## Caveats
-This works, but...
+Everything works for me, but...
 * PvPGN hasn't had a release since 2018.
 * Warcraft II was released in the 1990s.
 * I don't know about other Battle.net games, because I only own Warcraft II.
 
-If you can get it to work, great. If not, there's always [IPX wrapper](http://www.solemnwarning.net/ipxwrapper/).
+If you can get it to work too, great. If not, there's always [IPX wrapper](http://www.solemnwarning.net/ipxwrapper/).
 
 ## Where's This Going?
 Nowhere. Absolutely nowhere. I'm just happy this 1990s tech runs at all.
