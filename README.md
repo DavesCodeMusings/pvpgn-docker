@@ -5,9 +5,9 @@ Dockerfile and compose.yml to build and run pvpgn in a Docker container.
 [PvPGN](https://en.wikipedia.org/wiki/PvPGN) is a Battle.net clone you can run on your own computer. The repository you're in now exists to help those wishing to "Dockerize" their PvPGN instances. What you'll find here are the _Dockerfile_ to build PvPGN and a _compose.yml_ to save yourself some work building and running it.
 
 ## Why?
-Personally, I wanted to host Warcraft II games on my local area network (LAN), but the IPX protocol used by Warcraft II multi-player is no longer supported in modern Windows versions. IPX to TCP/IP wrappers are available, but require configuration on each client computer.
+Personally, I wanted to host Warcraft II games on my local area network (LAN), but the IPX protocol used by Warcraft II multi-player is no longer supported in modern Windows versions. IPX to TCP/IP wrappers are available, but I found the idea of a centralized server was appealing.
 
-PvPGN looked like a good solution for a centralized server. I wanted to run it in a Docker container. Thus, this repository was born.
+PvPGN looked like a good solution for a LAN-based private Battle.net server. I wanted to run it in a Docker container. Thus, this repository was born.
 
 ## How Can I Use It?
 You'll need a host running Docker with Docker Compose available. If you've got that, follow the steps below.
@@ -67,8 +67,4 @@ This works, but...
 If you can get it to work, great. If not, there's always [IPX wrapper](http://www.solemnwarning.net/ipxwrapper/).
 
 ## Where's This Going?
-Nowhere. Absolutely nowhere.
-
-Not being familiar with Battle.net, I didn't realize you can only play against other human players. (I suppose the Player vs. Player aspect of the PvPGN name should have clued me in, but I missed it.)
-
-So I've got a nice working Docker container that I'll never use, because I want to play cooperative LAN games. Still, it works. So if someone else can benefit, here it is.
+Nowhere. Absolutely nowhere. I'm just happy this 1990s tech runs at all.
